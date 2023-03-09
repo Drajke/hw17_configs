@@ -13,7 +13,7 @@ public class TestBase {
     RegResult regResult = new RegResult();
     @BeforeAll
     public static void setUpp() {
-        WebDriverProvider Provider = new WebDriverProvider();
+        WebDriverProvider provider = new WebDriverProvider();
 
     }
 

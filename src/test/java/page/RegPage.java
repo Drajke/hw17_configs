@@ -11,7 +11,7 @@ public class RegPage {
     CalendarComponent calendarComponent = new CalendarComponent();
 
     public void openPage(){
-        open("https://demoqa.com/automation-practice-form");
+        open("/");
         executeJavaScript("$('footer').remove()");
         executeJavaScript("$('#fixedban').remove()");
     }

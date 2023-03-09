@@ -23,6 +23,7 @@ public class WebDriverProvider {
         Configuration.baseUrl = config.getBaseUrl();
         Configuration.remote = config.getRemoteUrl();
         Configuration.browserVersion = config.getBrowserVersion();
+
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         Configuration.browserCapabilities = options;

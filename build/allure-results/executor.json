@@ -1,1 +1,1 @@
-{"name":"Gradle","type":"gradle","taskName":"run_tests","buildName":"hw17_configs","projectPath":":","projectVersion":"1.0-SNAPSHOT"}
+{"name":"Gradle","type":"gradle","taskName":"test","buildName":"hw17_configs","projectPath":":","projectVersion":"1.0-SNAPSHOT"}
